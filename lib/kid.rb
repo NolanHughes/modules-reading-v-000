@@ -3,8 +3,8 @@ require_relative './class_methods_module.rb'
 
 class Kid
 
-  # include FancyDance::InstanceMethods
-  # extend FancyDance::ClassMethods
+  include Dance
+  extend MetaDancing
 
   attr_accessor :name
 
